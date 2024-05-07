@@ -1,9 +1,13 @@
+'use client'
+
 import classes from './page.module.css';
 import ImagePicker from "@/components/meals/image-picker";
 import {shareMeal} from "@/lib/actions";
 import MealsFormSubmit from "@/components/meals/meals-form-submit";
-
+//import { useActionState } from 'react';
 export default function ShareMealPage() {
+
+  //const [state, formAction] = useActionState(shareMeal, {message: null});
 
   return (
     <>
