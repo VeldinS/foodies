@@ -2,8 +2,8 @@ import './globals.css';
 import MainHeader from "@/components/main-header/main-header";
 
 export const metadata = {
-  title: 'NextLevel Food',
-  description: 'Delicious meals, shared by a food-loving community.',
+  title: 'Veldin Foods',
+  description: 'Delicious meals, shared by Veldin.',
 };
 
 export default function RootLayout({ children }) {
